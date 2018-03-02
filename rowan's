@@ -12,7 +12,7 @@
     margin:10px;
     }
     .addacomment{
-    width:300px;}
+    width:600px;}
    #button{
    background-color:white;
    color:black;
