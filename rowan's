@@ -5,17 +5,22 @@
     background-color:#008080;
     padding:10px;
     }
+    
     body{
-        background-color:#008080;
+     background-color:#008080;
     }
+    
     input{
-    margin:10px;
+     margin:10px;
     }
+    
     .addacomment{
-    width:600px;}
+     width:100%;
+    }
+    
    #button{
-   background-color:white;
-   color:black;
+    background-color:white;
+    color:black;
    }
 </style>
 <form id="myform">
