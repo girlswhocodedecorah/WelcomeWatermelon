@@ -14,7 +14,7 @@
      margin:10px;
     }
     
-    div.addacomment input{
+    .addacomment{
      width:100%;
     }
     
@@ -32,9 +32,9 @@
     <label for="email"> Email</label>
     <input type="text" size=60 Email="email">
   </div>
-  <div class="addacomment">
+  <div>
     <label for="comment"> Comment</label>
-    <input type="text" Comment="comment">
+    <input class="addacomment" type="text" Comment="comment">
   </div>
   <input id="button" type="submit" value="submit">
 </form>
