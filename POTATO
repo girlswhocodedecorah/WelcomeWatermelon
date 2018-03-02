@@ -1,0 +1,78 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @elaphant556
+ Sign out
+0
+0 0 girlswhocodedecorah/WelcomeWatermelon
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+WelcomeWatermelon/ContactUsRose.html
+a2ed650  18 minutes ago
+@RoseAthena RoseAthena Update ContactUsRose.html
+     
+47 lines (41 sloc)  973 Bytes
+<!DOCTYPE html>
+<html>
+<style>
+    #myform{
+    
+    }
+    body{
+         background: #ef939c;
+    }
+    input{
+    margin:10px;
+    width:100%;
+    background:#d8ffb8;
+    }
+    #addacomment{
+    height:100px;
+    }
+    input, select, #fname{
+    width:100%;
+    background:#d8ffd8;
+    height:20px;
+    }
+    input [type=text], select, textarea{
+    background:#d8ffd8;
+    width:100%;
+    margin:10px;
+    }
+    
+    #POTATO {
+    height: 84px;
+    width: 200px;}
+</style>
+<form id="myform">
+  <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit" id="POTATO">
+  </form>
+</div>
+</form>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
