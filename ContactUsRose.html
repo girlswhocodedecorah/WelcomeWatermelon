@@ -9,20 +9,22 @@
     }
     input{
     margin:10px;
+    width:100%;
+    background:d8ffb8;
     }
     #addacomment{
-    width:400px;
     height:100px;
     }
-    input [type=submit]{
-    height="100px";
-    width="100%";
-    color="#59585a";
+    input, select, #fname{
+    width:100%;
+    background:#d8ffd8;
     }
     input [type=text], select, textarea{
     background:#d8ffd8;
-    width="100%";
+    width:100%;
+    margin:10px;
     }
+    
 </style>
 <form id="myform">
   <div class="container">
@@ -33,7 +35,7 @@
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="subject">Subject</label>
+    <label for="subject">Comment</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
