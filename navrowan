@@ -2,7 +2,7 @@
 <html>
 <style>
     #myform{
-    background-color:#4682B4;
+    background-color:#008080;
     padding:10px;
     }
     body{
@@ -14,8 +14,8 @@
     .addacomment{
     width:300px;}
    #button{
-   background-color:black;
-   color:white;
+   background-color:white;
+   color:black;
    }
 </style>
 <form id="myform">
