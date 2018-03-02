@@ -59,7 +59,7 @@ a2ed650  18 minutes ago
     <label for="subject">Comment</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit" id="POTATO">
+    <input type="submit" value="POTATO" id="POTATO">
   </form>
 </div>
 </form>
