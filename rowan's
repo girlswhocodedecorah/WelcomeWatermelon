@@ -14,7 +14,7 @@
      margin:10px;
     }
     
-    .addacomment{
+    div.addacomment input{
      width:100%;
     }
     
