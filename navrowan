@@ -2,11 +2,11 @@
 <html>
 <style>
     #myform{
-    background-color:#191970;
+    background-color:#4682B4;
     padding:10px;
     }
     body{
-        background-color:#3c7e03;
+        background-color:#008080;
     }
     input{
     margin:10px;
