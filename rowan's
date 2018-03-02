@@ -30,7 +30,7 @@
   </div>
   <div>
     <label for="email"> Email</label>
-    <input type="text" Email="email">
+    <input type="text" size=60 Email="email">
   </div>
   <div class="addacomment">
     <label for="comment"> Comment</label>
