@@ -28,7 +28,19 @@
     }
     
 </style>
-<form id="myform">
+<head>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!--Navigation bar-->
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="/ContactUs.html">Contact us</a></li>
+    </ul>
+    <!--end of Navigation bar-->
+</body>
+<form id="myform" method="POST" action="https://formspree.io/shughes@asymonte.com">
   <div align="center" class="container">
   <form action="/action_page.php">
     <label for="name">Full Name</label>
@@ -39,8 +51,12 @@
 
     <label for="subject">Comment</label>
     <textarea id="subject" name="subject" placeholder="Your Comment" style="height:200px"></textarea>
+    
+    <input type="text" name="_gotcha" style="display:none" />
 
     <input type="submit" value="Submit">
+    
+    <input type="hidden" name="_next" value="/Thanks.html" />
   </form>
 </div>
 </form>
