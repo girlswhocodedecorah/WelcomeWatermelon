@@ -12,6 +12,7 @@ $(function() {
           var tr = $('<tr/>');
           row.forEach(function(col) {
             tr.append("<td>" + col + "</td>");
+            //tr.append(col + "<br/>" + "<br/>");
           });
           table.append(tr);
       });

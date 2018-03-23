@@ -8,25 +8,17 @@
     body{
          background: #ef939c;
     }
-  input{
-    margin:10px;
-    width:100%;
-    background:#d8ffb8;
-  }
-    #addacomment{
-    height:100px;
-    }
     input, select, #fname{
     width:100%;
     background:#d8ffd8;
-    height:70px;
+    height:40px;
     font-size:16pt;
   }
   ::placeholder{
     color:#1e1e1e;
     opacity:1;
   }
-  input [type=text], select, textarea{
+  textarea{
     background:#d8ffd8;
     width:100%;
     margin:10px;
@@ -55,9 +47,10 @@
 
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email">
-
-    <label for="subject">Comment</label>
-    <textarea id="subject" name="subject" placeholder="Your Comment" style="height:200px"></textarea>
+    <div>
+     <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Your Comment" style="height:200px"></textarea> 
+    </div>
     
     <input type="text" name="_gotcha" style="display:none" />
 

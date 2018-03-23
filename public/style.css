@@ -1,18 +1,26 @@
 /* styles */
 /* called by your view template */
-
+/*
+Dark Green: #3c7e03
+Light Treen: #20a25c
+Dark Pink: #ef939c
+Light Pink: #F7D3D5
+Grey: #59585a
+*/
 * {
   box-sizing: border-box
 }
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 25px;
+  background-color: #eeeeee
 }
 
 h1 {
   font-weight: bold;
   font-size: 48px;
-  color: #20a25c !important;
+  color: #20a25c;
+  text-align:center;
 }
 
 footer {
@@ -27,7 +35,8 @@ footer > a {
 
 #data-container {
   min-height: 160px;
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
   
   border: 1px solid black;
   border-radius: 5px;
@@ -51,7 +60,7 @@ ul {
     margin: 20;
     padding: 0;
     overflow: hidden;
-    background-color: #20a25c;
+    background-color: #ef939c;
 }
 
 li {
@@ -68,7 +77,8 @@ li a {
 
 /* Change the link color to #3c7e03 (dark green) on hover */
 li a:hover {
-    background-color: #3c7e03;
+    background-color: #F7D3D5;
+    color:#1e1e1e;
 }
 
 .active {
