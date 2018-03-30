@@ -15,7 +15,6 @@ body {
   margin: 25px;
   background-color: #eeeeee
 }
-
 h1 {
   font-weight: bold;
   font-size: 48px;
@@ -131,4 +130,16 @@ li:last-child {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+#homeleft {
+  width:60%;
+  float: left;
+  display: inline-block;
+}
+#logo {
+  max-width: 60%;
+}
+#homeright {
+  width:38%;
+  display: inline-block;
 }
