@@ -11,8 +11,8 @@ $(function() {
       data.forEach(function(row) {
           var tr = $('<tr/>');
           row.forEach(function(col) {
-            tr.append("<td>" + col + "</td>");
-            //tr.append(col + "<br/>" + "<br/>");
+            //tr.append("<td>" + col + "</td>");
+            tr.append(col + "<br/>" + "<br/>");
           });
           table.append(tr);
       });
