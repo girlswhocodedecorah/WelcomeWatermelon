@@ -12,9 +12,16 @@ $(function() {
           var tr = $('<tr/>');
           row.forEach(function(col) {
             //tr.append("<td>" + col + "</td>");
-            tr.append(col + "<br/>" + "<br/>");
+            tr.append(col + "<br/>");
           });
           table.append(tr);
+          table.append("<tr/>"); //these are to provide space between each activity
+          table.append("<tr/>");
+          table.append("<tr/>");
+          table.append("<tr/>");
+          table.append("<tr/>");
+          table.append("<tr/>");
+          table.append("<tr/>");
       });
       $('#data-container').html(table);
       
