@@ -1,5 +1,5 @@
-# WelcomeWatermelon
-What is this for again?
+# Display Data from Excel
 
+This project provides an example for powering a static web site using an Excel (.xlsx) file on Dropbox.
 
-https://glitch.com/edit/#!/join/b2284a2e-e4c0-42cf-b235-6bcf03d50488
+![](https://cdn.glitch.com/a24de56a-9f77-4503-be6f-730bcd4094f3%2FexcelDataGIF.gif)

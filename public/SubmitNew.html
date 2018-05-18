@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<style>
+    input[type=submit]{
+    width:10%;
+    height:2%;
+    }
+    body{
+         background: #ef939c;
+    }
+  input{
+    margin:10px;
+    width:100%;
+    background:#d8ffb8;
+  }
+    #addacomment{
+    height:100px;
+    }
+    input, select, #fname{
+    width:100%;
+    background:#d8ffd8;
+    height:40px;
+    font-size:16pt;
+  }
+  ::placeholder{
+    color:#1e1e1e;
+    opacity:1;
+  }
+  input [type=text], select, textarea{
+    background:#d8ffd8;
+    width:100%;
+    margin:10px;
+    font-size:16pt;
+  }
+    
+</style>
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <title>Request New Activity</title>
+</head>
+<body>
+    <!--Navigation bar-->
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/AboutUs.html">About us</a></li>
+      <li><a href="/SubmitNew.html">Post Existing Activity</a></li>
+      <li><a href="/RequestNew.html">Create A New Activity</a></li>
+      <li><a href="/activities.html">Current Available Activities</a></li>
+<li><a href="/pendingrequests.html">Pending Requests</a></li>
+  </ul>
+    <!--end of Navigation bar-->
+</body>
+<form id="myform" method="POST" action="https://formspree.io/welcomewatermelon@gmail.com">
+  <div align="center" class="container">
+  <form action="/action_page.php">
+    <h1>
+      <center>Post Existing Activity</center>
+    </h1>
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email">
+
+    <label for="focusaudience">Focus Viewers</label>
+    <input type="text" name="foucusaudience" placeholder="Your focus age range"/>
+    
+    <label for="subject">Location</label>
+    <input type="text" name="place" placeholder="Location" />
+    
+    <label for="subject">Activity</label>
+    <textarea id="subject" name="subject" placeholder="Your activity" style="height:200px"></textarea>
+    
+    <label for="subject">Notes</label>
+    <textarea name="subject" placeholder="Anything else your particapants should know" style="height:200px"></textarea>
+    
+    
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <input type="submit" value="Submit">
+    
+    <input type="hidden" name="_next" value="/Thanks.html" />
+  </form>
+</div>
+</form>
+</html>
