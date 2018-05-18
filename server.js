@@ -18,13 +18,10 @@ app.get("/", function (request, response) {
 });
 
 app.get("/data", function (_, response) {
-    // Use localUrl to host your spreadsheet using Glitch's Assets folder:
-    var localUrl = "https://s3.amazonaws.com/hyperweb-editor-assets/us-east-1%3Ac3e8cd26-9ffe-46b3-b130-48f8ac8a781c%2Fgibberish.xlsx";
-    
     // Or use something fancier like Dropbox.
     // > Use any Dropbox public 'share' link for an xlsx file, 
     // > and be sure to add "?dl=1" to the end to make it direct.
-    var dropboxUrl = "https://www.dropbox.com/s/j9zypa686um9t3j/GlitchTest.xlsx?dl=1";
+    var dropboxUrl = "https://www.dropbox.com/s/5daiul14xtmby4q/WelcomeWatermelonEvents.xlsx?dl=1";
     
     // We'll use this dropbox url by default.
     var url = dropboxUrl;

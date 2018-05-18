@@ -8,6 +8,14 @@
     body{
          background: #ef939c;
     }
+  input{
+    margin:10px;
+    width:100%;
+    background:#d8ffb8;
+  }
+    #addacomment{
+    height:100px;
+    }
     input, select, #fname{
     width:100%;
     background:#d8ffd8;
@@ -18,7 +26,7 @@
     color:#1e1e1e;
     opacity:1;
   }
-  textarea{
+  input [type=text], select, textarea{
     background:#d8ffd8;
     width:100%;
     margin:10px;
@@ -28,7 +36,7 @@
 </style>
 <head>
   <link rel="stylesheet" href="/style.css">
-  <title>Contact Us</title>
+  <title>Request New Activity</title>
 </head>
 <body>
     <!--Navigation bar-->
@@ -50,10 +58,16 @@
 
     <label for="email">Email</label>
     <input type="text" id="email" name="email" placeholder="Your email">
-    <div>
-     <label for="subject">Comment</label>
-    <textarea id="subject" name="subject" placeholder="Your Comment" style="height:200px"></textarea> 
-    </div>
+
+    <label for="focusaudience">Focus Viewers</label>
+    <input type="text" name="foucusaudience" placeholder="Focus age range"/>
+    
+    <label for="subject">Idea</label>
+    <textarea id="subject" name="subject" placeholder="Your idea for a new activity" style="height:200px"></textarea>
+    
+    <label for="subject">Anything Else?</label>
+    <textarea name="subject" placeholder="Anything else you want us to know?" style="height:200px"></textarea>
+    
     
     <input type="text" name="_gotcha" style="display:none" />
 

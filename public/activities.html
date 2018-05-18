@@ -1,19 +1,18 @@
-<!-- This is a static file -->
-<!-- served from your routes in server.js -->
 <!DOCTYPE html>
+
 <html>
   <head>
-    <title>Welcome Watermelon Playground</title>
-    <meta name="description" content="Welcome Watermelon Events List">
+    <title>Welcome Watermelon Activities</title>
+    <meta name="description" content="Welcome Watermelon Activities">
     <link id="favicon" rel="icon" href="https://glitch.com/favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <style>
-</style>
   </head>
+    <header>
+    </header>
   <body>
     <!--Navigation bar-->
     <ul>
@@ -25,24 +24,16 @@
 <li><a href="/pendingrequests.html">Pending Requests</a></li>
     </ul>
     <!--end of Navigation bar-->
-    <div id="homeleft">
-      <br>
-   <img id="logo" src="https://lh3.googleusercontent.com/7TrB0tEsPDewYbAtdnDnDADl9t72v9GGklPFIfmZdYS8Sjh0xkXHrSeMb7LKlGJJDotYaQduHW1rjtgkgSdZoBF0syUscLrCN5FORKvp6JBbZ5yZeN-E02teP0tyM49cKWeReNW7
-">
-      <br>
-   <br>
   
-      <br>
-      <center>
-      <h3>
-        At Welcome Watermelon, Decorah-area students (ages 6th-12th) grade can catch up on all of the latest activities, clubs, and events. Don’t see your dream activity? Join forces and create it, using our “Launch New Activity” tab above!
-      </h3>
-     </center>
-      <br>
-    <br>
-    </div>
-    <div id="homeright">
-     
-    </div>
+    <main>
+        <div id="data-container">Fetching data...</div>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script> 
+
   </body>
 </html>
