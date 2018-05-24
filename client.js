@@ -54,7 +54,6 @@ var listener = app.listen(process.env.PORT, function () {
 });
 
 
-
 $(function() {
     $.getJSON('/data', function (data) {
       
