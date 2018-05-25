@@ -1,5 +1,10 @@
 // client-side js
 // run by the browser each time your view template is loaded
+
+// server.js
+// where your node app starts
+
+// init project
 var express = require('express');
 var app = express();
 
@@ -52,6 +57,8 @@ app.get("/data", function (_, response) {
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
+
+
 
 
 $(function() {
